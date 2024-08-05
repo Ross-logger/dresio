@@ -1,0 +1,5 @@
+services:
+  my_container3:
+    build: .
+    ports:
+      - '80:3333'
